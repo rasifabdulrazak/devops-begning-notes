@@ -1,0 +1,22 @@
+btwn software and hardware
+
+Linux is popular
+=======
+-free
+-opensource
+-secure
+-Distirubutions
+-fast
+
+Kernal
+========
+-establish communication btwn software and hardware
+-device management
+-memory management
+-proceess management
+-Handling system related call
+
+system libraies
+-============
+-lybc
+etx

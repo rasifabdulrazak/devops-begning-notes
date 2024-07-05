@@ -1,0 +1,75 @@
+shell
+=====
+-way to talk to system
+-command line
+-process of automating day to day process
+
+==========
+-signal in linux
+-there are many signal like cntrl c ext
+========
+
+-ls 
+-pwd
+-cd 
+-ls -ltr
+-touch
+-vi
+-cat
+-mkdir
+-rm 
+-rm -r
+-free -g => check memory of server etx
+-nprok =>no.of cpus
+-df -h => disk size 
+-top => check memory
+-man <command> => details of command
+-vi
+-vim => create and open file
+-#!/bin/bash(options(sh,dash,etc)) =>shebang
+-bash is common ..some sh are defualt direct to dash.
+-cat 
+-./filename.sh or sh filename.sh //// to ways to execute 
+-chmod (root,group,your permision %% user,group,everyone) => grant permision (4-read,2-write,1-execute)
+-history
+-ps -ef =>all process running
+-grep =>only fecth information required
+-ps -ef | grep "ssh"
+-| this parameter send output of first paramater to second
+-date => defualt 
+-awk => pattern scanning and processing
+-ps -ef | grep ssh | awk -F" " '{print $2}' => get second coloum details
+-set -x =>#debug mode
+-set -e =>#exit script when error occure
+-set -o =>pipefail #set -e will not stop when fail when there will be a pipe command so we use set -o , it only check last command in pipe
+-curl => request api in sehll
+-curl <url>
+-curl -X GET <api>
+-wget => its store to a file
+-find
+-sudo su -
+-kill
+-trap => for traping signals
+-wc => word count
+-traceroute =>troubleshoot
+-tracepath 
+-logrotate
+
+interview qauest
+==============
+-commlnly used command
+-list all process and filter
+-print only error from remote log
+-print number devide by 3 and 5 and not 15
+-no.of s in mississipes
+-debug shell script
+-crontab
+-open a file in readonly mode
+-diffrence btwn softlink and hardlink
+-break and continue
+-diswadantage of shell script
+-loops and when to use
+-is bash dynamically or statically typed
+-networking troubleshoot
+-sort list of names in file
+-manage logs (logrotate)

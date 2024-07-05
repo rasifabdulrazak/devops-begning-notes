@@ -1,1 +1,8 @@
-=>
+=>Hypervisor is a software which use to install vm in server 
+=>vmware, xen are examples of hypervisor
+
+=>AWS, AZURE
+=================
+->create ec2 or vms using CLI script for efficiency
+->Boto3 in python for communicating with aws api
+->AWS CLI, AWS API (BOTO3), AWS CFT, Terraform, AWS CDK
